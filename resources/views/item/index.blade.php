@@ -57,7 +57,7 @@
                           <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-md bg-green-200">商品名</th>
                           <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-md bg-green-200">商品詳細</th>
                           <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-md bg-green-200">価格（円）</th>
-                          <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-md bg-green-200">メーカー</th>
+                          <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-md bg-green-200">種類</th>
                           <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-md bg-green-200"></th>
                           <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-md bg-green-200"></th>
                         </tr>

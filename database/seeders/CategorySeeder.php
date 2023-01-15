@@ -17,17 +17,17 @@ class CategorySeeder extends Seeder
         DB::table('primary_categories')->truncate();
         DB::table('primary_categories')->insert([
             [
-                'name' => 'トヨタ',
+                'name' => '雑貨',
                 'sort_order' => 1,
             ],
 
             [
-                'name' => '日産',
+                'name' => '趣味',
                 'sort_order' => 2,
             ],
 
             [
-                'name' => 'マツダ',
+                'name' => '',
                 'sort_order' => 3,
             ],
 
@@ -35,9 +35,9 @@ class CategorySeeder extends Seeder
         DB::table('secondary_categories')->truncate();
         DB::table('secondary_categories')->insert([
             [
-                'name' => 'ミニバン',
-                'sort_order' => 1,
-                'primary_category_id' => 1
+                'name' => 'アート',
+                'sort_order' => 2,
+                'primary_category_id' => 2
             ],
 
             [

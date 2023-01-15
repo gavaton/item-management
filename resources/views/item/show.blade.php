@@ -77,7 +77,7 @@
                               <div class="flex-grow sm:pl-8 text-center pt-2">
                                 <h1 class="title-font text-lg font-medium text-gray-900 mb-3">名前：{{ $item->name }}</h1>
                                 <h1 class="title-font text-lg font-medium text-gray-900 mb-3">価格：{{ number_format($item->price) }}円</h1>
-                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">メーカー：{{ $item->category->primary->name }}</h1>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">種類：{{ $item->category->primary->name }}</h1>
                                 <h1 class="title-font text-lg font-medium text-gray-900 mb-3">ラインナップ：{{  $item->category->name }}</h1>
                                   <section class="section">
                                       <button type="button" data-micromodal-trigger="modal-1" class="text-white bg-green-500 border-0 py-2 px-3
