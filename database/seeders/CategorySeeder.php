@@ -27,7 +27,7 @@ class CategorySeeder extends Seeder
             ],
 
             [
-                'name' => '',
+                'name' => '生活',
                 'sort_order' => 3,
             ],
 
@@ -41,49 +41,49 @@ class CategorySeeder extends Seeder
             ],
 
             [
-                'name' => 'SUV',
+                'name' => 'アニメ・漫画',
                 'sort_order' => 2,
-                'primary_category_id' => 1
-            ],
-
-            [
-                'name' => 'セダン',
-                'sort_order' => 3,
-                'primary_category_id' => 1
-            ],
-
-            [
-                'name' => 'ミニバン',
-                'sort_order' => 4,
                 'primary_category_id' => 2
             ],
 
             [
-                'name' => 'SUV',
+                'name' => '自然',
+                'sort_order' => 3,
+                'primary_category_id' => 3
+            ],
+
+            [
+                'name' => '切手',
+                'sort_order' => 4,
+                'primary_category_id' => 1
+            ],
+
+            [
+                'name' => '',
                 'sort_order' => 5,
                 'primary_category_id' => 2
             ],
 
             [
-                'name' => 'セダン',
+                'name' => '',
                 'sort_order' => 6,
                 'primary_category_id' => 2
             ],
 
             [
-                'name' => 'ミニバン',
+                'name' => '',
                 'sort_order' => 7,
                 'primary_category_id' => 3
             ],
 
             [
-                'name' => 'SUV',
+                'name' => '',
                 'sort_order' => 8,
                 'primary_category_id' => 3
             ],
 
             [
-                'name' => 'セダン',
+                'name' => '',
                 'sort_order' => 9,
                 'primary_category_id' => 3
             ],
