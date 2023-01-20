@@ -77,6 +77,7 @@ class ItemsController extends Controller
         //イーガーローディング、リレーション
         $categories = PrimaryCategory::with('secondary')
         ->get();
+        dd($categories[0]->secondary);
 
         return view('item.create', compact('categories'));
     }
