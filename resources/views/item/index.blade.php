@@ -75,7 +75,7 @@
                               </a>
                             </td>
                             <td class="text-gray-900 title-font text-lg font-medium border-gray-500 bg-gray-100">{{ number_format($item->price) }}</td>
-                            <td class="text-gray-900 title-font text-lg font-medium border-gray-500 bg-gray-100">{{-- $item->category->primary->name-- }}</td>
+                            <td class="text-gray-900 title-font text-lg font-medium border-gray-500 bg-gray-100">{{-- $item->category->primary->name --}}</td>
                             @if( Auth::user()->role == 1 )
                             <td class="text-center bg-gray-100">
                                 <button onclick="location.href='{{ route('items.edit', ['item' => $item->id ]) }}'"  class="text-white bg-green-500 border-0 py-2 px-3
