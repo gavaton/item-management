@@ -17,16 +17,19 @@ class CategorySeeder extends Seeder
         DB::table('primary_categories')->truncate();
         DB::table('primary_categories')->insert([
             [
+                'id' => 1,
                 'name' => '雑貨',
                 'sort_order' => 1,
             ],
 
             [
+                'id' => 2,
                 'name' => '趣味',
                 'sort_order' => 2,
             ],
 
             [
+                'id' => 3,
                 'name' => '生活',
                 'sort_order' => 3,
             ],
