@@ -38,54 +38,63 @@ class CategorySeeder extends Seeder
         DB::table('secondary_categories')->truncate();
         DB::table('secondary_categories')->insert([
             [
+                'id' => 1,
                 'name' => 'アート',
                 'sort_order' => 2,
                 'primary_category_id' => 2
             ],
 
             [
+                'id' => 2,
                 'name' => 'アニメ・漫画',
                 'sort_order' => 2,
                 'primary_category_id' => 2
             ],
 
             [
+                'id' => 3,
                 'name' => '自然',
                 'sort_order' => 3,
                 'primary_category_id' => 3
             ],
 
             [
+                'id' => 4,
                 'name' => '切手',
                 'sort_order' => 4,
                 'primary_category_id' => 1
             ],
 
             [
+                'id' => 5,
                 'name' => '',
                 'sort_order' => 5,
                 'primary_category_id' => 2
             ],
 
             [
+                'id' => 6,
                 'name' => '',
                 'sort_order' => 6,
                 'primary_category_id' => 2
             ],
 
             [
+                'id' => 7,
                 'name' => '',
                 'sort_order' => 7,
                 'primary_category_id' => 3
             ],
 
             [
+                'id' => 8,
                 'name' => '',
                 'sort_order' => 8,
                 'primary_category_id' => 3
             ],
 
             [
+                'id' => 9,
                 'name' => '',
                 'sort_order' => 9,
                 'primary_category_id' => 3
